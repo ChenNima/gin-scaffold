@@ -11,9 +11,10 @@
       "mode": "debug",
       "program": "${workspaceRoot}/cmd/login-service/main.go",
       "env": {
-        "PORT": 8083,
+        "PORT": "8083",
       },
-      "args": []
+      "args": [],
+      "console": "integratedTerminal"
     }
   ]
 }
